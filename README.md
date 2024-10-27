@@ -1,29 +1,37 @@
-# jobs-app
+## Usage
 
-This template should help get you started developing with Vue 3 in Vite.
+This project uses JSON-Server for a mock backend.
 
-## Recommended IDE Setup
+### Install Dependencies
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+```bash
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Run JSON Server
 
-```sh
+The server will run on http://localhost:8000
+
+```bash
+npm run server
+```
+
+### Run Vite Frontend
+
+Vue will run on http://localhost:5173
+
+```bash
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Build for Production
 
-```sh
+```bash
 npm run build
+```
+
+### Preview Production Build
+
+```bash
+npm run preview
 ```
